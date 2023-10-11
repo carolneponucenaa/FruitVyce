@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main: #F5E073;
+    --font: 'Inter', sans-serif;
+}
+
+header{
+    background-color: var(--main);
+    width: 100vw;
+    height: 5vw;
+    display: inline-flex;
+    align-items: center;
+}
+
+header p{
+    font-family: var(--font);
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+
+header img{
+    padding-left: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main nav{
+    display: flex;
+}
+
+#cima div p{
+    width: 64%;
+    font-size: 36px;
+    font-family: var(--font);
+    padding: 60px 60px;
+    font-weight: 800;
+}
+
+#divBusca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+main nav div input{
+    display: flex;
+    background-color: var(--main);
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 40px;
+}
+
+main nav div button{
+    width: 200px;
+    height: 30px;
+    background-color: var(--main);
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#baixo{
+    padding: 60px;
+    gap: 90px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width: 240px;
+    border-style: solid;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font);
+    align-items: center;
+    height: 350px;
+}
+
+.card:hover{
+    transform: scale(1.20);
+    transition: calc(.2s);
+}
